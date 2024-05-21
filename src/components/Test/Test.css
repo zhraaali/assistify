@@ -1,0 +1,158 @@
+.modal-container {
+    position: fixed;
+    /* left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); */
+    /* background-color: black; */
+    /* width: 388px;
+height: 396px;
+top: 86px;
+left: 1108px */
+width: 388px;
+height: 382px;
+top: 100px;
+left: 66.25rem;
+/* background-color: white; */
+/* background-color: #42a942; */
+border-radius: 38px;
+
+  }
+  
+  .modal {
+    border-radius: 5px;
+    /* padding: 2rem;
+    background-color: white;
+    width: 30em; */
+    color: white;
+    background-color: #161D26;
+    
+  }
+  
+.btn{
+    border: none;
+    color: #fff;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #ccc;
+    font-size: 1rem;
+}
+
+  .btn-submit {
+    background-color: #42a942;
+  }
+  
+  .btn-cancel {
+    background-color: #d9534f;
+  }
+  
+  .modal-header img{
+    width: 14px;
+height: 14px;
+
+
+  }
+
+  .close {
+    cursor: pointer;
+    background-color: #12181F;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+  }
+  
+  .modal-header,.zh-currency-setting,.zh-theme-setting,.zh-language-setting {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* font-size: 2rem; */
+    font-weight: 600;
+    padding-top: 30px;
+    
+  }
+
+
+
+  .zh-allseetings-setting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding-top: 30px;
+    gap: 10px;
+  }
+  
+.hr{
+  width: 100%;
+top: 180px;
+left: 1496px;
+/* left: 1000px; */
+border-bottom:2px solid #12181F;
+padding-top: 27px;
+
+}
+
+.currency-setting-icons,.zh-EnglishUS-icons-setting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+  .modal-content {
+    margin-bottom: 2rem;
+  }
+  
+  .modal-footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  
+
+.zh-dark-white{
+      /* margin-top: 3.3rem; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 10.125rem;
+      height: 3.125rem;
+      flex-shrink: 0;
+      border-radius: 1.25rem;
+      padding-top: 0px;
+      margin-top: 0px;
+      background: #12181F;
+
+
+
+    }
+
+.zh-dark-white button{
+      background: none;
+    outline: none;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    }
+
+.zh-dark-white button:hover{
+  width: 4.8125rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border-radius: 0.875rem;
+    background: #0CAF60;
+}

@@ -1,0 +1,35 @@
+.signup-hero{
+    background-image: url(./../../assets/images/signuphero.png) !important;
+    /* background-size: cover; */
+    height: 89vh;
+    position: relative;
+}
+
+.signup-form{
+    background-color: #fff;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 30%;
+    border-radius: 19px;
+}
+
+.data-photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:700px){
+	.signup-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signup-form p,.signup-form span{
+        font-size: .5rem;
+    }
+}

@@ -1,0 +1,106 @@
+.hero{
+    height: 71vh;
+    background-image: url(./../../assets//images/heroimg.png);
+    position: relative;
+}
+
+.hero .hero-content{
+    width: 45vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.hero p{
+    color: var(--paragraph-color);
+    font-size: 22px;
+    margin: 0 17%;
+    text-align: center;
+}
+
+.hero h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    margin: 3% 0;
+}
+
+.zh-hero .hero-bottom{
+    height: 18vh;
+    /* position: relative; */
+}
+
+.zh-hero .hero-bottom h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 4%;
+}
+
+@media (max-width:1238px){
+    .zh-hero .hero-bottom h1{
+        font-size: 35px;
+        padding-top: 5%;
+    }
+
+    .hero h1{
+        font-size: 35px;
+    }
+
+    .hero p{
+        font-size: 1rem;
+    }
+    
+}
+
+@media (max-width:740px){
+    .hero h1{
+        font-size: 20px;
+    }
+    .hero p{
+        font-size: .7rem;
+    }
+
+    .zh-hero .hero-bottom h1{
+        font-size: 20px;
+        padding-top: 9%;
+    
+    }
+}
+
+@media (max-width:490.4px){
+
+    .hero-content{
+        position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    }
+
+    .hero h1{
+        font-size: 1rem;
+    }
+
+    .hero p{
+        font-size: .5rem;
+    }
+
+    .zh-hero .hero-bottom h1{
+        font-size: 1rem;
+        padding-top: 17%;
+    }
+}
+
+@media (max-width:400px){
+    .hero h1{
+        font-size: .8rem;
+    }
+    .zh-hero .hero-bottom h1{
+        font-size: .8rem;
+        padding-top: 20%;
+    }
+
+    .hero p{
+        font-size: .4rem;
+    }
+}

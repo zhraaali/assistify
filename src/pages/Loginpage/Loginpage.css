@@ -1,0 +1,70 @@
+/* .loginpage{
+    
+} */
+
+.form-div{
+    width: 55vw;
+    height: 74%;
+    margin:0 auto;
+    background-image: url(./../../assets/images/analog-landscape-city-with-buildings.png);
+    background-size: cover;
+}
+
+.form-questions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4%;
+    flex-direction: row-reverse;
+}
+
+.form-div span{
+    padding:0 2%;
+}
+
+.buttons-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+}
+
+.buttons-div button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1% 2%; */
+    height: 3em;
+    /* padding: 0 2%; */
+    width: 22%;
+    border-radius:21px;
+    color:#fff
+}
+
+.buttons-div button img{
+    width: 30%;
+
+}
+
+@media (max-width:900px){
+    .form-div form{
+        width: 100% !important;
+    }
+}
+
+@media (max-width:600px){
+    .form-div p{
+        font-size: .5rem;
+    }
+
+    .form-div span{
+        font-size: .4rem;
+    }
+
+    .form-div a{
+        font-size: .4rem;
+    }
+}
+
