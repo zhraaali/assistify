@@ -96,7 +96,7 @@ const Signup = () => {
                             </div>
                             
                         </div>
-                    <a href='/welcome' style={{width:'100%'}}>
+                    <a href='/verify' style={{width:'100%'}}>
                     <Form.Control type="text" value="انشاء حساب" style={{borderRadius:'20px',height:'2.4em',width:'100%',
                         marginTop:'3%',fontSize:'1rem',textAlign:'center',backgroundColor:'#1EE3CF',
                         border:'none',cursor:'pointer'
